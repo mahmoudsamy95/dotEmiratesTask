@@ -1,0 +1,695 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+<title>dotemirates</title>
+<link rel="stylesheet" type="text/css" href="css/boilerplate.css">
+<link rel="stylesheet" type="text/css" href="css/mygrid.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+
+<script src="js/respond.min.js"></script>
+<!-- <link rel="shortcut icon" href="images/favicon.ico" /> -->
+
+</head>
+<body class="">
+
+	<header id="header">
+	
+		<div class="top">
+			<div class="gridContainer relative clearfix">
+				<h1 class="logo pullRight"><img src="images/logo.png" alt=""></h1>
+				<div class="leftArea pullLeft">
+				
+					<div class="one search">
+						<div class="icon"><i class="icon-search"></i></div>
+						<div class="theForm">
+							<form action="#">
+								<span class="iconIn"><i class="icon-search"></i></span>
+								<input type="text" placeholder="بحث" class="formItem">
+								<input type="submit" value="">
+							</form>
+							<div class="textCentered trend">
+								<div class="in">
+									<span>الأكثر إنتشارًا:</span>
+									<span>أبوظبي</span>
+									<span>دبي</span>
+									<span>محمد بن زايد</span>
+								</div>
+							</div>
+							<div class="theResults">
+								<a href="#" class="oneResult">
+									<span class="avatar"><img src="images/3.jpg" alt=""></span>
+									<span class="title">ولي العهد محمد ن زايد آل نهيان هو ابن مؤسس ابو ظبي ورئيس مجلس اداره الصندوق</span>
+								</a>
+								<a href="#" class="oneResult">
+									<span class="title">ولي العهد محمد ن زايد آل نهيان هو ابن مؤسس ابو ظبي ورئيس مجلس اداره الصندوق</span>
+								</a>
+								<a href="#" class="oneResult">
+									<span class="avatar"><img src="images/3.jpg" alt=""></span>
+									<span class="title">ولي العهد محمد ن زايد آل نهيان هو ابن مؤسس ابو ظبي ورئيس مجلس اداره الصندوق</span>
+								</a>
+							</div>
+						</div>
+						
+					</div>
+					<div class="one mainSocial">
+						<a href="#"><i class="icon-telegram"></i></a>
+						<a href="#"><i class="icon-twitter"></i></a>
+						<a href="#"><i class="icon-facebook"></i></a>
+					</div>
+					<div class="one widgets clearfix">
+						<div class="oneWidget">
+							<span class="icon"><i class="icon-economy"></i></span>
+						</div>
+						<div class="oneWidget">
+							<span class="icon"><i class="icon-weather"></i></span>
+						</div>
+						<div class="oneWidget">
+							<span class="icon"><i class="icon-pray"></i></span>
+						</div>
+						<div class="oneWidget">
+							<span class="icon"><i class="icon-currencies"></i></span>
+						</div>
+						<div class="oneWidget">
+							<span class="icon"><i class="icon-gas"></i></span>
+						</div>
+					</div>
+					<div class="one"><a href="#">EN</a></div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<nav id="navigation">
+			<div class="gridContainer clearfix">
+				<div class="menuIcon"><div><span></span><span></span><span></span></div><span class="text">القائمة</span></div>
+				<div class="theMenu relative">
+					<ul class="clearfix">
+						<li>
+							<a href="#"><i class="icon-home"></i> <span>الرئيسية</span></a>
+						</li>
+						<li>
+							<a href="#"><i class="icon-emirates"></i> <span>الإمارات</span></a>
+						</li>
+						<li>
+							<a href="#"><i class="icon-world"></i> <span>العالم</span></a>
+						</li>
+						<li>
+							<a href="#"><i class="icon-money"></i> <span>مال وأعمال</span></a>
+						</li>
+						<li>
+							<a href="#"><i class="icon-sport"></i> <span>رياضة</span></a>
+						</li>
+						<li>
+							<a href="#"><i class="icon-science"></i> <span>علوم وتكنولوجيا</span></a>
+						</li>
+
+
+						<li>
+							<a href="#"><i class="icon-lifestyle"></i> <span>لايف ستايل</span></a>
+						</li>
+						<li>
+							<a href="#"><i class="icon-art"></i> <span>فن وثقافة</span></a>
+						</li>
+						<li>
+							<a href="#"><i class="icon-accidents"></i> <span>حوادث وقضايا</span></a>
+						</li>
+						<li>
+							<a href="#"><i class="icon-health"></i> <span>الصحة</span></a>
+						</li>
+						<li>
+							<a href="#"><i class="icon-articles"></i> <span>المقالات</span></a>
+						</li>
+					</ul>
+					<div class="seeMore" onClick="sliceMenu()"><i class="icon-arrow-right"></i> <span>المزيد</span><span class="back">الرجوع</span></div>
+				</div>
+				
+			</div>
+		</nav>
+		
+	</header>
+	
+	
+	<div class="mobileNav">
+		<div class="widgets">
+			<div class="gridContainer">
+				<div class="icons clearfix">
+					<div class="one"><i class="icon-gas"></i></div>
+					<div class="one"><i class="icon-currencies"></i></div>
+					<div class="one"><i class="icon-pray"></i></div>
+					<div class="one"><i class="icon-weather"></i></div>
+					<div class="one"><i class="icon-economy"></i></div>
+				</div>
+				<div class="theWidget">
+					<div class="oneItem">
+						<div class="oneWidgetIn fuelPrice">
+							<div class="theTitle">
+								<i class="icon-gas"></i> <span>أسعار الوقود</span>
+							</div>
+							<hr>
+							<div class="content mainPadding">
+								<div class="one">
+									<div class="tableDis">
+										<div class="oneCell"><img src="images/widgets/gas.png" alt=""></div>
+										<div class="oneCell"><span class="font-4 brand-color">جازولين</span></div>
+										<div class="oneCell">سوبر 98 <br> 2.5</div>
+									</div>
+								</div>
+								<div class="one">
+									<div class="tableDis">
+										<div class="oneCell"><img src="images/widgets/gas.png" alt=""></div>
+										<div class="oneCell"><span class="font-4 brand-color">جازولين</span></div>
+										<div class="oneCell">سوبر 95 <br> 2.3</div>
+									</div>
+								</div>
+								<div class="one">
+									<div class="tableDis">
+										<div class="oneCell"><img src="images/widgets/gas.png" alt=""></div>
+										<div class="oneCell"><span class="font-4 brand-color">جازولين</span></div>
+										<div class="oneCell">بلس <br> 2.0</div>
+									</div>
+								</div>
+								<div class="one">
+									<div class="tableDis">
+										<div class="oneCell"><img src="images/widgets/gas.png" alt=""></div>
+										<div class="oneCell"><span class="font-4 brand-color">ديزل</span></div>
+										<div class="oneCell">2.0</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="oneItem">
+						<div class="oneWidgetIn convertCurr">
+							<div class="theTitle"><i class="icon-currencies"></i> <span>محول العملات</span></div>
+							<div class="content">
+								<div class="one">
+									<div class="tableDis">
+										<div class="oneCell"><img src="images/widgets/flag.png" alt=""></div>
+										<div class="oneCell">درهم إماراتي</div>
+										<div class="oneCell">1،444</div>
+									</div>
+								</div>
+								<div class="one">
+									<div class="tableDis">
+										<div class="oneCell"><img src="images/widgets/flag.png" alt=""></div>
+										<div class="oneCell">درهم إماراتي</div>
+										<div class="oneCell">1،444</div>
+									</div>
+								</div>
+								<div class="one">
+									<div class="tableDis">
+										<div class="oneCell"><img src="images/widgets/flag.png" alt=""></div>
+										<div class="oneCell">درهم إماراتي</div>
+										<div class="oneCell">1،444</div>
+									</div>
+								</div>
+								<div class="one">
+									<div class="tableDis">
+										<div class="oneCell"><img src="images/widgets/flag.png" alt=""></div>
+										<div class="oneCell">درهم إماراتي</div>
+										<div class="oneCell">1،444</div>
+									</div>
+								</div>
+								<div class="one">
+									<div class="tableDis">
+										<div class="oneCell"><img src="images/widgets/flag.png" alt=""></div>
+										<div class="oneCell">درهم إماراتي</div>
+										<div class="oneCell">1،444</div>
+									</div>
+								</div>
+								<div class="one">
+									<div class="tableDis">
+										<div class="oneCell"><img src="images/widgets/flag.png" alt=""></div>
+										<div class="oneCell">درهم إماراتي</div>
+										<div class="oneCell">1،444</div>
+									</div>
+								</div>
+								<div class="one">
+									<div class="tableDis">
+										<div class="oneCell"><img src="images/widgets/flag.png" alt=""></div>
+										<div class="oneCell">درهم إماراتي</div>
+										<div class="oneCell">1،444</div>
+									</div>
+								</div>
+								<div class="one">
+									<div class="tableDis">
+										<div class="oneCell"><img src="images/widgets/flag.png" alt=""></div>
+										<div class="oneCell">درهم إماراتي</div>
+										<div class="oneCell">1،444</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="oneItem">
+						<div class="oneWidgetIn weather">
+							<div class="theTitle">
+								<i class="icon-pray"></i> <span>مواقيت الصلاة</span>
+							</div>
+							<hr>
+							<div class="mainPadding">
+								<div class="tableDis">
+									<div class="oneCell"><img src="images/widgets/weather.png" alt=""></div>
+									<div class="oneCell brand-color textCentered dataTop">
+										<div>المغرب</div>
+										<div class="number"><div class="inlineBlock relative">26 <span>o</span></div></div>
+										<div class="font-small">الظهر</div>
+									</div>
+									<div class="oneCell brand-color textCentered dataTop">
+										<div>الخميس</div>
+										<div class="number">15</div>
+										<div class="font-small">مارس ٢٠١٦</div>
+									</div>
+								</div>
+							</div>
+							<hr>
+							<div class="content">
+								<div class="one mainPadding">
+									<div class="tableDis">
+										<div class="oneCell">الفجر</div>
+										<div class="oneCell"><img src="images/widgets/weather.png" alt=""></div>
+										<div class="oneCell number"><div class="inlineBlock relative">12:33</div></div>
+									</div>
+								</div>
+								<div class="one mainPadding">
+									<div class="tableDis">
+										<div class="oneCell">الفجر</div>
+										<div class="oneCell"><img src="images/widgets/weather.png" alt=""></div>
+										<div class="oneCell number"><div class="inlineBlock relative">12:33</div></div>
+									</div>
+								</div>
+								<div class="one mainPadding">
+									<div class="tableDis">
+										<div class="oneCell">الفجر</div>
+										<div class="oneCell"><img src="images/widgets/weather.png" alt=""></div>
+										<div class="oneCell number"><div class="inlineBlock relative">12:33</div></div>
+									</div>
+								</div>
+								<div class="one mainPadding">
+									<div class="tableDis">
+										<div class="oneCell">الفجر</div>
+										<div class="oneCell"><img src="images/widgets/weather.png" alt=""></div>
+										<div class="oneCell number"><div class="inlineBlock relative">12:33</div></div>
+									</div>
+								</div>
+								<div class="one mainPadding">
+									<div class="tableDis">
+										<div class="oneCell">الفجر</div>
+										<div class="oneCell"><img src="images/widgets/weather.png" alt=""></div>
+										<div class="oneCell number"><div class="inlineBlock relative">12:33</div></div>
+									</div>
+								</div>
+								<div class="one mainPadding">
+									<div class="tableDis">
+										<div class="oneCell">الفجر</div>
+										<div class="oneCell"><img src="images/widgets/weather.png" alt=""></div>
+										<div class="oneCell number"><div class="inlineBlock relative">12:33</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="oneItem">
+						<div class="oneWidgetIn weather">
+							<div class="theTitle">
+								<i class="icon-weather"></i> <span>الطقس</span>
+							</div>
+							<hr>
+							<div class="mainPadding">
+								<div class="tableDis">
+									<div class="oneCell"><img src="images/widgets/weather.png" alt=""></div>
+									<div class="oneCell brand-color textCentered dataTop">
+										<div>المغرب</div>
+										<div class="number"><div class="inlineBlock relative">26 <span>o</span></div></div>
+										<div class="font-small">غالبا مشمش</div>
+									</div>
+									<div class="oneCell brand-color textCentered dataTop">
+										<div>الخميس</div>
+										<div class="number">15</div>
+										<div class="font-small">مارس ٢٠١٦</div>
+									</div>
+								</div>
+							</div>
+							<div class="brand-bg hourlyWeater">
+								<div class="flexslider downPosition">
+									<ul class="slides">
+										<li>
+											<div class="one">
+												<div class="avatar"><img src="images/widgets/weather2.png" alt=""></div>
+												<div class="data">
+													<div class="time">9 AM</div>
+													<div class="number"><div class="inlineBlock relative">26 <span>o</span></div></div>
+												</div>
+											</div>
+
+										</li>
+										<li>
+											<div class="one">
+												<div class="avatar"><img src="images/widgets/weather2.png" alt=""></div>
+												<div class="data">
+													<div class="time">10 AM</div>
+													<div class="number"><div class="inlineBlock relative">26 <span>o</span></div></div>
+												</div>
+											</div>
+
+										</li>
+										<li>
+											<div class="one">
+												<div class="avatar"><img src="images/widgets/weather2.png" alt=""></div>
+												<div class="data">
+													<div class="time">11 AM</div>
+													<div class="number"><div class="inlineBlock relative">26 <span>o</span></div></div>
+												</div>
+											</div>
+
+										</li>
+										<li>
+											<div class="one">
+												<div class="avatar"><img src="images/widgets/weather2.png" alt=""></div>
+												<div class="data">
+													<div class="time">12 PM</div>
+													<div class="number"><div class="inlineBlock relative">26 <span>o</span></div></div>
+												</div>
+											</div>
+
+										</li>
+										<li>
+											<div class="one">
+												<div class="avatar"><img src="images/widgets/weather2.png" alt=""></div>
+												<div class="data">
+													<div class="time">1 PM</div>
+													<div class="number"><div class="inlineBlock relative">26 <span>o</span></div></div>
+												</div>
+											</div>
+
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="content">
+								<div class="one mainPadding">
+									<div class="tableDis">
+										<div class="oneCell">الخميس</div>
+										<div class="oneCell"><img src="images/widgets/weather.png" alt=""></div>
+										<div class="oneCell number"><div class="inlineBlock relative">26 <span>o</span></div></div>
+										<div class="oneCell number"><div class="inlineBlock relative">16 <span>o</span></div></div>
+									</div>
+								</div>
+								<div class="one mainPadding">
+									<div class="tableDis">
+										<div class="oneCell">الجمعه</div>
+										<div class="oneCell"><img src="images/widgets/weather.png" alt=""></div>
+										<div class="oneCell number"><div class="inlineBlock relative">26 <span>o</span></div></div>
+										<div class="oneCell number"><div class="inlineBlock relative">16 <span>o</span></div></div>
+									</div>
+								</div>
+								<div class="one mainPadding">
+									<div class="tableDis">
+										<div class="oneCell">السبت</div>
+										<div class="oneCell"><img src="images/widgets/weather.png" alt=""></div>
+										<div class="oneCell number"><div class="inlineBlock relative">26 <span>o</span></div></div>
+										<div class="oneCell number"><div class="inlineBlock relative">16 <span>o</span></div></div>
+									</div>
+								</div>
+								<div class="one mainPadding">
+									<div class="tableDis">
+										<div class="oneCell">الاحد</div>
+										<div class="oneCell"><img src="images/widgets/weather.png" alt=""></div>
+										<div class="oneCell number"><div class="inlineBlock relative">26 <span>o</span></div></div>
+										<div class="oneCell number"><div class="inlineBlock relative">16 <span>o</span></div></div>
+									</div>
+								</div>
+								<div class="one mainPadding">
+									<div class="tableDis">
+										<div class="oneCell">الاتنين</div>
+										<div class="oneCell"><img src="images/widgets/weather.png" alt=""></div>
+										<div class="oneCell number"><div class="inlineBlock relative">26 <span>o</span></div></div>
+										<div class="oneCell number"><div class="inlineBlock relative">16 <span>o</span></div></div>
+									</div>
+								</div>
+								<div class="one mainPadding">
+									<div class="tableDis">
+										<div class="oneCell">الثلاثاء</div>
+										<div class="oneCell"><img src="images/widgets/weather.png" alt=""></div>
+										<div class="oneCell number"><div class="inlineBlock relative">26 <span>o</span></div></div>
+										<div class="oneCell number"><div class="inlineBlock relative">16 <span>o</span></div></div>
+									</div>
+								</div>
+								<div class="one mainPadding">
+									<div class="tableDis">
+										<div class="oneCell">الاربعاء</div>
+										<div class="oneCell"><img src="images/widgets/weather.png" alt=""></div>
+										<div class="oneCell number"><div class="inlineBlock relative">26 <span>o</span></div></div>
+										<div class="oneCell number"><div class="inlineBlock relative">16 <span>o</span></div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="oneItem">
+						<div class="oneWidgetIn markets">
+				
+							<div class="theTitle">
+								<i class="icon-economy"></i><span>الأسواق</span>
+							</div>
+							<hr>
+							<div class="h-padding">
+								<div class="tabs">
+									<a href="#">DFMGI</a>
+									<a href="#" class="active">ADI</a>
+								</div>
+								<div>
+									<div class="font-4 v-padding ltrDir clearfix">
+										<span class="pullLeft">4,519.58</span>
+										<span class="pullRight brand-color">-0.09% -4</span>
+									</div>
+									<div class="graph"></div>
+									<div class="font-medium tableDis tradingNums">
+										<div class="oneCell">
+											<div>حجم التداول</div>
+											<div class="brand-color">381,870,534</div>
+										</div>
+										<div class="oneCell">
+											<div>قيمة التداول</div>
+											<div class="brand-color">381,870,534</div>
+										</div>
+										<div class="oneCell">
+											<div>عدد العمليات</div>
+											<div class="brand-color">381,870,534</div>
+										</div>
+									</div>
+									<div class="dataBar clearfix">
+										<div class="one" style="width: 40%;">
+											<div>20</div>
+											<div class="thebar"></div>
+											<div>رابحه</div>
+										</div>
+										<div class="one" style="width: 20%;">
+											<div>10</div>
+											<div class="thebar"></div>
+											<div>ثابته</div>
+										</div>
+										<div class="one" style="width: 40%;">
+											<div>20</div>
+											<div class="thebar"></div>
+											<div>خاسره</div>
+										</div>
+									</div>
+									<div class="brand-bg smallPadding textCentered white-color">الشركات المتداوله <span>83</span></div>
+									<div class="mainPadding brand-color textCentered font-2 fontBold">الشركات الاكثر</div>
+									<div class="tabs tabs2">
+										<a href="#" class="active">ربحًا</a>
+										<a href="#">خسارة</a>
+										<a href="#">قيمة</a>
+										<a href="#">كمية</a>
+									</div>
+									<div class="allCompanies">
+										<div class="one tableDis">
+											<div class="oneCell">اسمنت الاتحاد</div>
+											<div class="oneCell">20</div>
+											<div class="oneCell"><i class="icon-arrow-dir-up"></i></div>
+										</div>
+										<div class="one tableDis">
+											<div class="oneCell">اسمنت الاتحاد</div>
+											<div class="oneCell">20</div>
+											<div class="oneCell"><i class="icon-arrow-dir-up"></i></div>
+										</div>
+										<div class="one tableDis">
+											<div class="oneCell">اسمنت الاتحاد</div>
+											<div class="oneCell">20</div>
+											<div class="oneCell"><i class="icon-arrow-dir-up"></i></div>
+										</div>
+										<div class="one tableDis">
+											<div class="oneCell">اسمنت الاتحاد</div>
+											<div class="oneCell">20</div>
+											<div class="oneCell"><i class="icon-arrow-dir-up"></i></div>
+										</div><div class="one tableDis">
+											<div class="oneCell">اسمنت الاتحاد</div>
+											<div class="oneCell">20</div>
+											<div class="oneCell"><i class="icon-arrow-dir-up"></i></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="gridContainer">
+			<ul class="theMenu">
+				<li><a href="#"><i class="icon-home"></i><span>الرئيسية</span></a></li>
+				<li><a href="#"><i class="icon-emirates"></i><span>الإمارات</span></a></li>
+				<li><a href="#"><i class="icon-world"></i><span>العالم</span></a></li>
+				<li><a href="#"><i class="icon-money"></i><span>مال وأعمال</span></a></li>
+				<li><a href="#"><i class="icon-sport"></i><span>رياضة</span></a></li>
+				<li><a href="#"><i class="icon-science"></i><span>علوم وتكنولوجيا</span></a></li>
+				<li><a href="#"><i class="icon-lifestyle"></i><span>لايف ستايل</span></a></li>
+				<li><a href="#"><i class="icon-art"></i><span>فن وثقافة</span></a></li>
+				<li><a href="#"><i class="icon-accidents"></i><span>حوادث وقضايا</span></a></li>
+				<li><a href="#"><i class="icon-health"></i><span>الصحة</span></a></li>
+				<li><a href="#"><i class="icon-articles"></i><span>المقالات</span></a></li>
+			</ul>
+		</div>
+		<div class="mainSocial textCentered">
+			<a href="#"><i class="icon-telegram"></i></a>
+			<a href="#"><i class="icon-twitter"></i></a>
+			<a href="#"><i class="icon-facebook"></i></a>
+		</div>
+	</div>
+	
+	
+	<div class="inContent">
+		<div class="gridContainer">
+			
+			<div class="aboutPages">
+				
+				<div class="top textCentered">
+					<img src="images/logo2.png" alt="">
+					<div>عن دوت إمارات</div>
+				</div>
+				
+				<div class="tabs textCentered">
+					<div class="current">عن دوت إمارات <i class="icon-arrow-down"></i></div>
+					<div class="in">
+						<a href="#">شروط وأحكام</a>
+						<a href="#">إتفاقية الخصوصية</a>
+						<a href="#">إتفاقية ملفات الإوتباط</a>
+						<a href="#">الأسئلة الشائعة</a>
+						<a href="#">إتصل بنا</a>
+					</div>
+				</div>
+				
+				<div class="content clearfix">
+					<div class="oneCol right">
+						<p>
+							يقدم موقع دوت إمارات الخدمات الإعلامية الأفضل لدولة الإمارات العربية المتحدة،عن طريق جمع وتصنيف المئات من القصص الإخبارية والمقالات ومقاطع الفيديو، والصور، وتحديثات مواقع التواصل الاجتماعي بشكل فوري.</p>
+						<p>
+						يساعدك دوت إمارات أن تبقى على اطلاع  بأهم وأحدث الأخبار المحلية والعالمية التي تهمك على مدار الساعة.
+						</p>
+						<p>
+						يمكنك متابعة مصادر الأخبار المفضلة لديك ‏والمشاهير الذين تحبهم، كما يمكنك متابعة مواضيع أو أقسام معينة ومعرفة كل جديد عن جميع مجالات اهتمامك.
+						</p>
+						<p>
+						يتيح لك دوت إمارات مشاركة المواضيع على تويتر، فيسبوك،  WhatsApp، البريد الإلكتروني، وLinkedin، والرسائل القصيرة وغيرها بضغطة زر.
+						</p>
+						<p>
+						قابلية التخصيص<br>
+						نظم التصنيفات الخاصة بك بالطريقة التي تريدها. تابع ما تفضله من مواقع، وصحف، ومجلات، ومشاهير. ثم قم بزيارة قسم “أخباري” الخاص لتجد مواضيعك بكل سهولة.
+						</p>
+						<p>
+						القراءة الذكية<br>
+						عرض مبسط، خالي من الفوضى، وهو الأمثل لقراءة الأخبار على الهواتف المحمولة.
+						</p>
+						<p>
+						قراءة الأخبار دون الاتصال بالإنترنت<br>
+						يمكنك حفظ الأخبار لقراءتها في وقت لاحق، دون الحاجة إلى اتصال بالإنترنت.
+						</p>
+					</div>
+					<div class="oneCol left ltrDir">
+						<p>dotemirates delivers the best of the United Arab Emirates, providing special media services by instantly gathering and categorizing hundreds of news stories, articles, videos, photos, and social media updates.</p>
+
+						<p>Get Top stories & Breaking news, and stay updated around-the-clock with local and global updates that matter to you.</p>
+
+						<p>Follow your favourite News Sources and beloved Celebrities. You can also follow specific Topics or Sections and discover more about all your areas of interest.</p>
+
+						<p>Instantly share your picks via twitter, Facebook, WhatsApp, e-mail, LinkedIn, SMS and more.</p>
+
+						<p>Customisable<br>
+							Follow your chosen websites, newspapers, magazines and celebrities, flip through your favourite categories and easily scroll the articles.</p>
+
+						<p>Smart Mode<br>
+							Streamlined, clutter-free, and optimised for mobile readability.</p>
+
+						<p>Offline Reading<br>
+							You can save articles for reading later, without needing an internet connection.</p>
+					</div>
+				</div>
+				<div class="textCentered"><img src="images/attractions.jpg" alt=""></div>
+				
+			</div>
+			
+		</div>
+	</div>
+	
+	<footer id="footer">
+		<div class="gridContainer">
+
+			<div class="one menu">
+				<ul>
+					<li><a href="#">عن دوت إمارات</a></li>
+					<li><a href="#">إتصل بنا</a></li>
+					<li><a href="#">شروط وأحكام</a></li>
+					<li><a href="#">أبلغ عن خطأ</a></li>
+					<li><a href="#">إتفاقية الخصوصية</a></li>
+					<li><a href="#">تصويبات وتوضيحات</a></li>
+					<li><a href="#">إتفاقية ملفات الإوتباط</a></li>
+					<li><a href="#">الشكاوي والإقتراحات</a></li>
+					<li><a href="#">الأسئلة الشائعة</a></li>
+					<li><a href="#">خريطة الموقع</a></li>
+				</ul>
+			</div>
+			<div class="one subscribe textCentered">
+				<div class="logo"><img src="images/logo.png" alt=""></div>
+				<div class="mainSocial">
+					<a href="#"><i class="icon-telegram"></i></a>
+					<a href="#"><i class="icon-twitter"></i></a>
+					<a href="#"><i class="icon-facebook"></i></a>
+				</div>
+				<div class="verticalLine"></div>
+				<div class="subscribeForm">
+					<div class="title">القائمة البريدية</div>
+					<form action="#">
+						<input type="emial" class="emailInp" placeholder="البريد الإلكتروني">
+						<input type="submit" value="إشتراك">
+					</form>
+				</div>
+			</div>
+			<div class="one applications">
+				<div class="text">
+					<div>حمل تطبيق  دوت إمارات </div>
+					<div class="links">
+						<a href="#"><i class="icon-apple"></i></a>
+						<a href="#"><i class="icon-android"></i></a>
+						<a href="#"><i class="icon-windows"></i></a>
+					</div>
+				</div>
+				<div class="img">
+					<img src="images/application.png" alt="">
+				</div>
+			</div>
+
+		</div>
+	</footer>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/myscript.js"></script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,86 @@
+/*
+ * jQuery FlexSlider v2.5.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 and later license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ * 
+ */
+/* ====================================================================================================================
+ * FONT-FACE
+ * ====================================================================================================================*/
+
+/* ====================================================================================================================
+ * RESETS
+ * ====================================================================================================================*/
+
+/* ====================================================================================================================
+ * BASE STYLES
+ * ====================================================================================================================*/
+.flexslider {
+	direction:rtl;
+}
+.flexslider-fix-rtl{
+    width: 100% !important;
+    transform: initial !important;
+}
+/* ====================================================================================================================
+ * DEFAULT THEME
+ * ====================================================================================================================*/
+
+.carousel li {
+  margin-right: 0; margin-left: 20px;
+}
+.flex-direction-nav {
+  *height: 0;
+}
+
+.flex-direction-nav a:before {
+  content: '\e808';
+}
+.flex-direction-nav a.flex-next:before {
+  content: '\e807';
+}
+
+
+.flexslider.arrows1 .flex-direction-nav a:before{
+  content: '\e804';
+}
+.flexslider.arrows1 .flex-direction-nav a.flex-next:before {
+  content: '\e803';
+}
+.flexslider.downPosition .flex-direction-nav a{left: auto;right: 50%;margin-right: -20px;}
+.flexslider.downPosition .flex-direction-nav a.flex-next{margin-right: 20px;}
+
+
+.flex-direction-nav .flex-prev {
+  left: auto; right: 10px;
+}
+.flex-direction-nav .flex-next {
+  right: auto; left: 10px;
+  text-align: left;
+}
+
+.flex-pauseplay a {
+  left: auto; right: 10px;
+}
+
+
+.flex-control-thumbs li {
+  float: right;
+}
+
+/* ====================================================================================================================
+ * RESPONSIVE
+ * ====================================================================================================================*/
+@media screen and (max-width: 860px) {
+  .flex-direction-nav .flex-prev {
+    left: auto; right: 10px;
+  }
+  .flex-direction-nav .flex-next {
+    right: auto; left: 10px;
+  }
+}

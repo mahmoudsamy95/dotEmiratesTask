@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+.myrow {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.mycol-xs-1, .mycol-sm-1, .mycol-md-1, .mycol-xmd-1, .mycol-lg-1, .mycol-xs-2, .mycol-sm-2, .mycol-md-2, .mycol-xmd-2, .mycol-lg-2, .mycol-xs-3, .mycol-sm-3, .mycol-md-3, .mycol-xmd-3, .mycol-lg-3, .mycol-xs-4, .mycol-sm-4, .mycol-md-4, .mycol-xmd-4, .mycol-lg-4, .mycol-xs-5, .mycol-sm-5, .mycol-md-5, .mycol-xmd-5, .mycol-lg-5, .mycol-xs-6, .mycol-sm-6, .mycol-md-6, .mycol-xmd-6, .mycol-lg-6, .mycol-xs-7, .mycol-sm-7, .mycol-md-7, .mycol-xmd-7, .mycol-lg-7, .mycol-xs-8, .mycol-sm-8, .mycol-md-8, .mycol-xmd-8, .mycol-lg-8, .mycol-xs-9, .mycol-sm-9, .mycol-md-9, .mycol-xmd-9, .mycol-lg-9, .mycol-xs-10, .mycol-sm-10, .mycol-md-10, .mycol-xmd-10, .mycol-lg-10, .mycol-xs-11, .mycol-sm-11, .mycol-md-11, .mycol-xmd-11, .mycol-lg-11, .mycol-xs-12, .mycol-sm-12, .mycol-md-12, .mycol-xmd-12, .mycol-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.mycol-xs-1, .mycol-xs-2, .mycol-xs-3, .mycol-xs-4, .mycol-xs-5, .mycol-xs-6, .mycol-xs-7, .mycol-xs-8, .mycol-xs-9, .mycol-xs-10, .mycol-xs-11, .mycol-xs-12 {float: right;}
+.english .mycol-xs-1, .english .mycol-xs-2, .english .mycol-xs-3, .english .mycol-xs-4, .english .mycol-xs-5, .english .mycol-xs-6, .english .mycol-xs-7, .english .mycol-xs-8, .english .mycol-xs-9, .english .mycol-xs-10, .english .mycol-xs-11, .english .mycol-xs-12 {float: left;}
+.mycol-xs-12 {width: 100%;}
+.mycol-xs-11 {width: 91.66666667%;}
+.mycol-xs-10 {width: 83.33333333%;}
+.mycol-xs-9 {width: 75%;}
+.mycol-xs-8 {width: 66.66666667%;}
+.mycol-xs-7 {width: 58.33333333%;}
+.mycol-xs-6 {width: 50%;}
+.mycol-xs-5 {width: 41.66666667%;}
+.mycol-xs-4 {width: 33.33333333%;}
+.mycol-xs-3 {width: 25%;}
+.mycol-xs-2 {width: 16.66666667%;}
+.mycol-xs-1 {width: 8.33333333%;}
+
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+	
+	.mycol-sm-1, .mycol-sm-2, .mycol-sm-3, .mycol-sm-4, .mycol-sm-5, .mycol-sm-6, .mycol-sm-7, .mycol-sm-8, .mycol-sm-9, .mycol-sm-10, .mycol-sm-11, .mycol-sm-12 {float: right;}
+	.english .mycol-sm-1, .english .mycol-sm-2, .english .mycol-sm-3, .english .mycol-sm-4, .english .mycol-sm-5, .english .mycol-sm-6, .english .mycol-sm-7, .english .mycol-sm-8, .english .mycol-sm-9, .english .mycol-sm-10, .english .mycol-sm-11, .english .mycol-sm-12 {float: left;}
+	.mycol-sm-12 {width: 100%;}
+	.mycol-sm-11 {width: 91.66666667%;}
+	.mycol-sm-10 {width: 83.33333333%;}
+	.mycol-sm-9 {width: 75%;}
+	.mycol-sm-8 {width: 66.66666667%;}
+	.mycol-sm-7 {width: 58.33333333%;}
+	.mycol-sm-6 {width: 50%;}
+	.mycol-sm-5 {width: 41.66666667%;}
+	.mycol-sm-4 {width: 33.33333333%;}
+	.mycol-sm-3 {width: 25%;}
+	.mycol-sm-2 {width: 16.66666667%;}
+	.mycol-sm-1 {width: 8.33333333%;}
+
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+	.mycol-md-1, .mycol-md-2, .mycol-md-3, .mycol-md-4, .mycol-md-5, .mycol-md-6, .mycol-md-7, .mycol-md-8, .mycol-md-9, .mycol-md-10, .mycol-md-11, .mycol-md-12 {float: right;}
+	.english .mycol-md-1, .english .mycol-md-2, .english .mycol-md-3, .english .mycol-md-4, .english .mycol-md-5, .english .mycol-md-6, .english .mycol-md-7, .english .mycol-md-8, .english .mycol-md-9, .english .mycol-md-10, .english .mycol-md-11, .english .mycol-md-12 {float: left;}
+	.mycol-md-12 {width: 100%;}
+	.mycol-md-11 {width: 91.66666667%;}
+	.mycol-md-10 {width: 83.33333333%;}
+	.mycol-md-9 {width: 75%;}
+	.mycol-md-8 {width: 66.66666667%;}
+	.mycol-md-7 {width: 58.33333333%;}
+	.mycol-md-6 {width: 50%;}
+	.mycol-md-5 {width: 41.66666667%;}
+	.mycol-md-4 {width: 33.33333333%;}
+	.mycol-md-3 {width: 25%;}
+	.mycol-md-2 {width: 16.66666667%;}
+	.mycol-md-1 {width: 8.33333333%;}
+
+}
+
+@media only screen and (min-width: 1000px) {
+	.mycol-xmd-1, .mycol-xmd-2, .mycol-xmd-3, .mycol-xmd-4, .mycol-xmd-5, .mycol-xmd-6, .mycol-xmd-7, .mycol-xmd-8, .mycol-xmd-9, .mycol-xmd-10, .mycol-xmd-11, .mycol-xmd-12 {float: right;}
+	.english .mycol-xmd-1, .english .mycol-xmd-2, .english .mycol-xmd-3, .english .mycol-xmd-4, .english .mycol-xmd-5, .english .mycol-xmd-6, .english .mycol-xmd-7, .english .mycol-xmd-8, .english .mycol-xmd-9, .english .mycol-xmd-10, .english .mycol-xmd-11, .english .mycol-xmd-12 {float: left;}
+	.mycol-xmd-12 {width: 100%;}
+	.mycol-xmd-11 {width: 91.66666667%;}
+	.mycol-xmd-10 {width: 83.33333333%;}
+	.mycol-xmd-9 {width: 75%;}
+	.mycol-xmd-8 {width: 66.66666667%;}
+	.mycol-xmd-7 {width: 58.33333333%;}
+	.mycol-xmd-6 {width: 50%;}
+	.mycol-xmd-5 {width: 41.66666667%;}
+	.mycol-xmd-4 {width: 33.33333333%;}
+	.mycol-xmd-3 {width: 25%;}
+	.mycol-xmd-2 {width: 16.66666667%;}
+	.mycol-xmd-1 {width: 8.33333333%;}
+
+}
+
+@media only screen and (min-width: 1300px) {
+	
+	.mycol-lg-1, .mycol-lg-2, .mycol-lg-3, .mycol-lg-4, .mycol-lg-5, .mycol-lg-6, .mycol-lg-7, .mycol-lg-8, .mycol-lg-9, .mycol-lg-10, .mycol-lg-11, .mycol-lg-12 {float: right;}
+	.english .mycol-lg-1, .english .mycol-lg-2, .english .mycol-lg-3, .english .mycol-lg-4, .english .mycol-lg-5, .english .mycol-lg-6, .english .mycol-lg-7, .english .mycol-lg-8, .english .mycol-lg-9, .english .mycol-lg-10, .english .mycol-lg-11, .english .mycol-lg-12 {float: left;}
+	.mycol-lg-12 {width: 100%;}
+	.mycol-lg-11 {width: 91.66666667%;}
+	.mycol-lg-10 {width: 83.33333333%;}
+	.mycol-lg-9 {width: 75%;}
+	.mycol-lg-8 {width: 66.66666667%;}
+	.mycol-lg-7 {width: 58.33333333%;}
+	.mycol-lg-6 {width: 50%;}
+	.mycol-lg-5 {width: 41.66666667%;}
+	.mycol-lg-4 {width: 33.33333333%;}
+	.mycol-lg-3 {width: 25%;}
+	.mycol-lg-2 {width: 16.66666667%;}
+	.mycol-lg-1 {width: 8.33333333%;}
+
+}
